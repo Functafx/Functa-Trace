@@ -1,7 +1,7 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.0",
   "released_at": "2026-05-06",
-  "notes": "TES SIMULASI — versi dummy untuk verifikasi banner update muncul. Tidak ada perubahan nyata.",
+  "notes": "Rilis pertama Functa Trace dengan fitur auto-update.",
   "installer_url": "https://github.com/Functafx/Functa-Trace/releases/download/v1.0.0/FunctaTrace-Setup-1.0.0.exe",
   "sha256": "26f9c6c8aa4957992bc756b205b9b5858b8bb9aacec54082cb765906b8196a88"
 }
