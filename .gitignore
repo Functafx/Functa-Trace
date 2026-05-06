@@ -1,0 +1,4 @@
+# Binary releases — di-upload ke GitHub Releases, bukan ke git
+*.exe
+*.msi
+*.zip
