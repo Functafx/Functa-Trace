@@ -1,7 +1,7 @@
 {
-  "version": "1.1.4",
-  "released_at": "2026-07-14",
-  "notes": "Versi 1.1.4 \u2014 Fitur baru Hapus Background + Formater lebih rapi.\n\nYang baru:\n- FITUR BARU: Hapus Background (Photoshop) \u2014 hapus background batch\n  memakai AI Remove Background bawaan Adobe Photoshop 2021+.\n  Input JPG/PNG/WEBP -> PNG transparan, dengan perapi tepi (defringe),\n  trim otomatis, dan pemindahan sumber ke folder Bahan/.\n  Catatan: bahan harus sudah di-upscale (tools tidak meng-upscale).\n- Formater Microstock (Ghostscript) kini menghasilkan artboard yang\n  mengikuti logika engine Illustrator: komposisi/layout asli bahan\n  dipertahankan (tidak lagi menempel ke tepi), presisi tepi lebih\n  tinggi, dan preview JPG di-scale tajam ke ~20 MP.\n- Nama engine diperjelas: \"Formater Microstock (Adobe Illustrator)\"\n  dan \"Formater Microstock (Ghostscript)\" (tanpa Adobe).\n- PDF Bantuan diperbarui: bab baru Hapus Background (Photoshop),\n  info dua varian Formater Microstock, dan standar platform Vecteezy.",
-  "installer_url": "https://github.com/Functafx/Functa-Trace/releases/download/v1.1.4/FunctaTrace-Setup-1.1.4.exe",
-  "sha256": "68bdb8b200920b9827c8e93770f6054195091ced249fe62b206643ea68d3c50b"
+  "version": "1.1.6",
+  "released_at": "2026-07-28",
+  "notes": "Versi 1.1.6 - Perbaikan penting: error saat trace kini ditangani otomatis.\n\nYang baru:\n- PENTING: modal error vectorizer.ai (\"Too many rapid-fire requests\")\n  ternyata tidak pernah terdeteksi karena pola pencarian teksnya salah.\n  Akibatnya proses berhenti sampai user klik Retry sendiri, terutama di\n  akun ke-2 dan seterusnya. Sekarang terdeteksi dan ditangani otomatis.\n- Deteksi CAPTCHA juga diperbaiki (pola yang sama, ikut tidak berfungsi).\n- Penanganan error dipasang di SEMUA tahap: saat halaman dibuka, saat\n  membuka halaman download, di halaman setelan, dan saat klik Download.\n  Sebelumnya hanya saat menunggu hasil tracing, jadi error di tahap lain\n  membuat proses diam.\n- Rate limit dan error lain kini diulang otomatis tiap 20 detik TANPA\n  BATAS sampai berhasil. Sebelumnya error lain menyerah setelah 10 kali\n  dengan jeda yang makin panjang.\n- Tiap akun menangani errornya sendiri: satu akun menunggu rate limit\n  tidak membuat akun lain ikut berhenti.",
+  "installer_url": "https://github.com/Functafx/Functa-Trace/releases/download/v1.1.6/FunctaTrace-Setup-1.1.6.exe",
+  "sha256": "cfe9ee39befa5ac158439bc0c6d3b27e35292b3c32c1d6a5c14ed7833ec700fc"
 }
