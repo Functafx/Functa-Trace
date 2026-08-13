@@ -14,10 +14,10 @@ File `update.json` di root repo ini dibaca oleh aplikasi untuk mengecek versi te
 
 ```json
 {
-  "version": "1.0.1",
+  "version": "<versi>",
   "released_at": "2026-05-06",
   "notes": "Catatan rilis...",
-  "installer_url": "https://github.com/Functafx/Functa-Trace/releases/download/v1.0.1/FunctaTrace-Setup-1.0.1.exe",
+  "installer_url": "https://github.com/Functafx/Functa-Trace/releases/download/v<versi>/FunctaTrace-Setup-<versi>.exe",
   "sha256": "..."
 }
 ```

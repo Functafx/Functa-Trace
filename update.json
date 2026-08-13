@@ -1,7 +1,7 @@
 {
-  "version": "1.1.9",
+  "version": "2.0",
   "released_at": "2026-08-13",
-  "notes": "Versi 1.1.9 - Aplikasi jadi jauh lebih cepat dibuka, dan update otomatis tidak lagi tersendat.\n\nYang baru:\n- Cara aplikasi dibungkus diubah. Sebelumnya seluruh isi program dijadikan\n  satu berkas 132 MB yang harus membongkar dirinya ke folder sementara SETIAP\n  kali dibuka. Itu sumber banyak keluhan: aplikasi lambat dibuka, dan tepat\n  setelah pembaruan sering muncul \"Failed to start embedded python\n  interpreter!\" karena antivirus masih memindai berkas yang baru ditulis\n  sehingga pembongkarannya gagal. Sekarang isinya sudah berupa berkas biasa\n  di folder pemasangan, tidak ada yang perlu dibongkar.\n- Aplikasi terbuka jauh lebih cepat.\n- Tidak ada lagi folder sementara yang menumpuk di komputer tiap kali\n  aplikasi ditutup paksa.\n- Setelah pembaruan, aplikasi kembali terbuka sendiri dengan andal.\n\nCatatan: isi fitur versi 1.1.7 dan 1.1.8 ikut di dalam pembaruan ini.",
-  "installer_url": "https://github.com/Functafx/Functa-Trace/releases/download/v1.1.9/FunctaTrace-Setup-1.1.9.exe",
-  "sha256": "5209615a45e276ea0f8a000deaf0de15c9e48209a48e7d3f4acff5978d058612"
+  "notes": "Versi 2.0 - Aplikasi jadi jauh lebih cepat dibuka, dan update otomatis tidak lagi tersendat.\n\nYang baru:\n- Cara aplikasi dibungkus diubah. Sebelumnya seluruh isi program dijadikan\n  satu berkas 132 MB yang harus membongkar dirinya ke folder sementara SETIAP\n  kali dibuka. Itu sumber banyak keluhan: aplikasi lambat dibuka, dan tepat\n  setelah pembaruan sering muncul \"Failed to start embedded python\n  interpreter!\" karena antivirus masih memindai berkas yang baru ditulis\n  sehingga pembongkarannya gagal. Sekarang isinya sudah berupa berkas biasa\n  di folder pemasangan, tidak ada yang perlu dibongkar.\n- Aplikasi terbuka jauh lebih cepat.\n- Tidak ada lagi folder sementara yang menumpuk di komputer tiap kali\n  aplikasi ditutup paksa.\n- Setelah pembaruan, aplikasi kembali terbuka sendiri dengan andal.\n\nCatatan: isi fitur versi 1.1.7 dan 1.1.8 ikut di dalam pembaruan ini.",
+  "installer_url": "https://github.com/Functafx/Functa-Trace/releases/download/v2.0/FunctaTrace-Setup-2.0.exe",
+  "sha256": "42ca2bdf2fe25bf8e3292d9d5bb184df4467e79fc11c38decade0fd56f87eb47"
 }
