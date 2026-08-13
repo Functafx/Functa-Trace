@@ -3,5 +3,5 @@
   "released_at": "2026-08-13",
   "notes": "Versi 1.1.8 - Perbaikan penting: update otomatis kini benar-benar terpasang.\n\nYang baru:\n- PENTING: pembaruan otomatis dari versi sebelumnya gagal memasang apa pun.\n  Installer memakai Restart Manager Windows untuk menutup Functa Trace yang\n  sedang berjalan, tapi di sebagian komputer layanan itu ditolak izin\n  (\"Permission Denied\"). Akibatnya FunctaTrace.exe tetap terkunci, penggantian\n  berkas gagal, dan installer berhenti sendiri tanpa memasang apa pun maupun\n  membuka aplikasi lagi - dari sisi pengguna terlihat seperti update yang\n  tidak melakukan apa-apa, dan versinya tetap yang lama.\n  Sekarang installer menutup aplikasinya sendiri lebih dulu, tidak lagi\n  bergantung pada Restart Manager.\n- Aplikasi juga diperbaiki supaya benar-benar keluar saat menyerahkan proses\n  ke installer. Sebelumnya perintah keluarnya tertelan oleh gelung peristiwa\n  antarmuka, jadi aplikasinya tetap hidup dan berkasnya tetap terkunci.\n\nCatatan: isi fitur versi 1.1.7 ikut di dalam pembaruan ini.",
   "installer_url": "https://github.com/Functafx/Functa-Trace/releases/download/v1.1.8/FunctaTrace-Setup-1.1.8.exe",
-  "sha256": "60a9b61292c25724de22dda30ca59a9818e77ae52eadbcb80af7184f29ded6b7"
+  "sha256": "65873932823a5369d0b0b68ed289edcd59b4c9da11872717c7c74d76816e70ca"
 }
